@@ -1,0 +1,153 @@
+body {
+    --bg-color: goldenrod;
+    --bg-image: url("images/RearA.jpg");
+    background: var(--bg-color) !important;
+    margin: 0;
+    overflow: hidden;
+    font-family: "Reggae One", cursive;
+}
+
+.heading {
+    text-align: center;
+    color: #1e1f22;
+    font-size: 3.5rem;
+    margin: 1.5rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 23% 51vw 24.2%;
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    place-content: center;
+    width: 51vw;
+    gap: 2vw;
+    grid-template-columns: repeat(6, 6.5vw);
+    perspective: 70rem;
+    /*padding: 1.5vw;*/
+    position: relative;
+    border-radius: 2%;
+    box-shadow: 0 0 1rem;
+    transition: all 1s ease;
+    background: #1e1f22 !important;
+    z-index: 99;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.flex-card {
+    background: #1e1f22 !important;
+    width: 18.19vw;
+    aspect-ratio: 2/3;
+    border-radius: 3%;
+    box-shadow: 0 0 1rem;
+}
+.right {
+    padding-left: 1.25rem;
+}
+
+.welcome {
+    position: absolute;
+    width: 51vw;
+    height: 100%;
+    border-radius: 2%;
+    box-shadow: 0 0 1rem;
+    background: #1e1f22 !important;
+    z-index: 99;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    transition: opacity 1s ease;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.w-header {
+    border-radius: 5%;
+    box-shadow: inset -1rem 0 1rem rgba(0,0,0,0.5);
+    margin-top: 3rem;
+    color: var(--bg-color);
+}
+
+.w-subheader {
+    border-radius: 5%;
+    box-shadow: inset -1rem 0 1rem rgba(0,0,0,0.5);
+    color: var(--bg-color);
+}
+
+.w-text {
+    margin: 0;
+    color: var(--bg-color);
+}
+
+.btn {
+    margin-left: 0.2rem;
+}
+
+.cat-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.catalog {
+    margin-top: 4%;
+    width: 10vw;
+    height: 16vw;
+    border-radius: 5%;
+    position: relative;
+    background: #1e1f22;
+    box-shadow: inset 0 0.5rem 1rem;
+}
+
+.catalog > img {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 10vw;
+    height: 16vw;
+    border-radius: 5%;
+    box-shadow: 0 0.5rem 1rem;
+    z-index: 1;
+    transition: all 0.5s ease;
+}
+
+.catalog > img:hover {
+    transform: translateY(-20%);
+}
+
+.catalog > h2 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5vw;
+    top: 85%;
+    left: 25%;
+    color: var(--bg-color);
+}
+
+.catalog > .x-h2 {
+    left: 8%;
+}
+
+.catalog > .y-h2 {
+    left: 33%;
+}
+
+.btn:disabled {
+    opacity: 0.8;
+    box-shadow: none;
+    pointer-events: none;
+    animation: none;
+}
