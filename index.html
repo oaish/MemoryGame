@@ -14,9 +14,10 @@
     <link rel="stylesheet" href="CSS/animate.css">
     <script>
         var isFirefox = typeof InstallTrigger !== 'undefined'; // Check if the browser is Firefox
+        var isMobile = /iPhone|iPad|iPod|Android|BlackBerry|Windows Phone/i.test(navigator.userAgent);
 
-        if (/Mobi/i.test(navigator.userAgent)) {
-            window.location.href = "404.html";
+        if (isMobile) {
+            window.location.href = 'path/to/mobile.html'; // Replace with the path to the mobile-specific HTML document
         }
         if (isFirefox) {
             window.location.href = 'firefox.html'; // Replace with the path to the Firefox-specific HTML document
