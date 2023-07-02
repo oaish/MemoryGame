@@ -13,15 +13,17 @@
     <link rel="stylesheet" href="CSS/result.css">
     <link rel="stylesheet" href="CSS/animate.css">
     <script>
-        var isFirefox = typeof InstallTrigger !== 'undefined'; // Check if the browser is Firefox
+        var isFirefox = typeof InstallTrigger !== 'undefined';
         var isMobile = /iPhone|iPad|iPod|Android|BlackBerry|Windows Phone/i.test(navigator.userAgent);
 
         if (isMobile) {
-            window.location.href = '404.html'; // Replace with the path to the mobile-specific HTML document
+            window.location.href = '404.html';
         } else if (isFirefox) {
-            window.location.href = 'firefox.html'; // Replace with the path to the Firefox-specific HTML document
+            window.location.href = 'firefox.html';
         }
     </script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous" async></script>
+    <script src="JS/script.js" defer></script>
 </head>
 <body>
 <h1 class="heading">
@@ -276,7 +278,5 @@
     <h2 class="result-text">DEFEAT!</h2>
 </footer>
 
-<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-<script src="JS/script.js"></script>
 </body>
 </html>
