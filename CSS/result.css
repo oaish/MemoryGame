@@ -1,0 +1,33 @@
+
+.result {
+    margin-left: 42.5vw;
+    margin-top: 2vw;
+    width: 15vw;
+    height: 3vw;
+    background: #1e1f22;
+    border-radius: 1.5vw;
+    box-shadow: 0 0 1rem;
+}
+
+.res {
+    animation: res 1s ease;
+}
+
+.result-text {
+    font-family: "Reggae One", cursive;
+    margin: 0;
+    padding: 0.2rem;
+    text-align: center;
+    color: var(--bg-color);
+}
+
+@keyframes res {
+    0% {
+        width: 0;
+        margin-left: 50vw;
+    }
+    100% {
+        margin-left: 42.5vw;
+        width: 15vw;
+    }
+}
