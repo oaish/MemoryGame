@@ -74,24 +74,15 @@
     }
 }
 
-
-@media (max-width: 1360px) {
-    /*.grid {*/
-    /*    padding: 1rem;*/
-    /*    gap: 1rem;*/
-    /*}*/
-
-}
-
 @media (max-width: 1300px) {
     .flex-card {
-        width: 16.25rem;
+        width: 16.25vw;
     }
     .right {
-        width: 15.85rem;
+        width: 15.85vw;
     }
     .theme-card {
-        width: 3.775rem !important;
+        width: 4vw !important;
     }
 }
 
