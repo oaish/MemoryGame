@@ -1,0 +1,1 @@
+.timer:hover{box-shadow: none;transform: scale(.98)}.card-type:hover{background: var(--bg-color)}.card-type:hover h2{color: #1e1f22}.btn-annoy{animation: curious 1s infinite}@keyframes curious{0%{transform: scale(1)}50%{transform: scale(1.04)}100%{transform: scale(1)}}.welcome-fade{opacity: 0}
