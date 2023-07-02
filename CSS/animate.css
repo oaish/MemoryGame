@@ -76,17 +76,11 @@
 
 
 @media (max-width: 1360px) {
-    .grid {
-        padding: 1rem;
-        gap: 1rem;
-    }
-    /*.cat-container {*/
-    /*    gap: 5rem;*/
+    /*.grid {*/
+    /*    padding: 1rem;*/
+    /*    gap: 1rem;*/
     /*}*/
-    /*.catalog {*/
-    /*    width: 6rem;*/
-    /*    height: 9rem;*/
-    /*}*/
+
 }
 
 @media (max-width: 1300px) {
