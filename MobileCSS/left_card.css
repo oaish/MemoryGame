@@ -1,1 +1,60 @@
-.left-div{margin-left: 0}.timer{width: 6.25rem;height: 2.4rem;margin: 1vw;background: var(--bg-color);border-radius: 1.2vw;box-shadow: 0 0 1rem;transition: scale 0.5s ease}.timer > h2{margin: 0;color: #1e1f22;text-align: center;font-size: 1.5rem}.pill{width: 12.25rem;height: 2.4rem;margin: 1vw;background: var(--bg-color);border-radius: 1.2vw;box-shadow: 0 0 1rem}.pill > h2{margin: 0;color: #1e1f22;text-align: center}.pill > h2 > span{margin-left: 2rem;border-radius: 50%;color: var(--bg-color);padding: .5rem;background: #1e1f22;box-shadow: inset 0 0 .3rem rgba(0, 0, 0, .5), inset 0 0 .3rem rgba(0, 0, 0, .5)}.pairs > h2 > span{margin-left: 3.19rem}
+.left-div {
+    margin-left: 0
+}
+
+.left .heading {
+    margin-left: 1rem;
+    padding-right: 0;
+    padding-top: 0.7rem;
+    text-align: left;
+    font-size: 2.2rem;
+}
+
+.timer {
+    width: 10rem;
+    height: 7rem;
+    margin: 1vw;
+    padding-inline: 1rem;
+    background: var(--bg-color);
+    border-radius: 1.2vw;
+    box-shadow: 0 0 1rem;
+    transition: scale 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.timer > h2 {
+    margin: 0;
+    color: #1e1f22;
+    text-align: center;
+    font-size: 2.5rem
+}
+
+.pill {
+    width: 15rem;
+    height: 7rem;
+    margin: 1vw;
+    background: var(--bg-color);
+    border-radius: 1.2vw;
+    box-shadow: 0 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.pill > h2 {
+    margin: 0 0 0 1rem;
+    color: #1e1f22;
+    text-align: center;
+    font-size: 2.5rem
+}
+
+.pill > h2 > span {
+    margin-inline: 1rem;
+    border-radius: 1.2vw;
+    color: var(--bg-color);
+    padding: .5rem;
+    background: #1e1f22;
+    box-shadow: inset 0 0 .3rem rgba(0, 0, 0, .5), inset 0 0 .3rem rgba(0, 0, 0, .5)
+}
